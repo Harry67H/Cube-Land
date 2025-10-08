@@ -1,3 +1,11 @@
+# Core
 Flask==3.0.3
 Flask-SocketIO==5.3.6
 eventlet==0.36.1
+
+# Optional extras
+Werkzeug==3.0.4         # Flask dependency, just to lock a version
+requests==2.32.3        # For web API calls, if you ever add external integrations
+Pillow==10.4.0          # For image resizing when workers upload custom skins/wallpapers
+SQLAlchemy==2.0.34      # For saving users, items, coins, etc. to a real database
+Flask-Login==0.6.3      # For persistent login sessions
