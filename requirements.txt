@@ -1,6 +1,7 @@
-Flask==2.2.5
-Flask-SocketIO==6.4.0
-python-dotenv==1.0.0
-eventlet==0.33.3
-Werkzeug==2.2.3
-pillow==10.0.0
+Flask
+Flask-SocketIO
+python-dotenv
+eventlet
+Werkzeug
+pillow
+gunicorn
